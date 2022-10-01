@@ -162,11 +162,11 @@ main form .links-container aside .linkedin:hover {
   background-color: #14a0f9;
   color: white;
 }
-main form .links-container aside .facebook {
-  color: #0a66c2;
+main form .links-container aside .github {
+  color: black;
 }
-main form .links-container aside .facebook:hover {
-  background-color: #0a66c2;
+main form .links-container aside .github:hover {
+  background-color: black;
   color: white;
 }
 main form footer {
