@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <link href="css/style.css" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+        <script src="../Projeto HTML/JS/index.js " defer></script>
+        <script src="https://kit.fontawesome.com/6a46f1a17e.js" crossorigin="anonymous"></script>
+         
+        <title>Login-Helper</title>
+    </head>
+    <body>
+        <header>
+            <h1>Login-Helper</h1>
+        </header>
+      <main>
+        <form >
+            <section class="inputs-container">
+                <input type="text" id="name" name="name" placeholder="example@gmailcom.com">
+                <div class="password-container">
+                    <input type="password"           id="field-password" class="field-password" placeholder="************">
+                    <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showPassWord()"></i>
+                    <i class="fa-solid fa-eye"       id="eye"       onclick="showPassWord()"></i> 
+        
+                </div>
+            </section>
+            
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div> 
+                <a href="#">Esqueceu a senha?</a>
+            </section>
+ 
+            <button id="btn_login" type="submit" value="enviar">Login</button> 
+            <section class="links-container">  
+                <span >Ou entre com:</span>              
+                <aside>                    
+                    <a href=""><i class="fa-brands fa-google google"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin linkedin"></i></a>
+                    </aside>
+            </section>            
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta?<a href="#">Cadastre-se</a></span>
+            </footer>
+        </form>
+      </main>
+    </body>
+</html>
