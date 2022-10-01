@@ -21,4 +21,5 @@ Com o uso do JavaScritp é adiciondo a funcionalidade de ocultar ou exibir a sen
 </div>  
 
 ## Print da tela finalizada
-  <img align="center" src="https://user-images.githubusercontent.com/81024063/193161377-af85dd04-e67a-4a0c-9cfc-64dd5c288b0b.png">
+
+  <img align="center"  height="100%" width="100%" src="https://user-images.githubusercontent.com/81024063/193425047-3e3e219e-aa13-4519-92a1-929bf749e0df.png">
